@@ -1,5 +1,5 @@
 # app/main.py
-
+# CICD worked well
 from dummy_model import DummyModel
 from joblib import load
 
