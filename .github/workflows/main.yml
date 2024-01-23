@@ -27,7 +27,7 @@ jobs:
       run: |
         git config user.name "BharatKumarNaik"
         git config user.email "bharathegde2002@gmail.com"
-        git remote set-url origin https://x-access-token:${{ secrets.CICD }}@github.com/cresolindiateam/cicddemo.git
+        git remote set-url origin https://x-access-token:${{ secrets.CICD }}@github.com/BharatKumarNaik/CICD_Demo.git
     - name: Create and push to deployment branch
       run: |
         git checkout -b deployment-branch
